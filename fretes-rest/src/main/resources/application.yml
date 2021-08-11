@@ -1,6 +1,8 @@
 micronaut:
   application:
     name: fretesRest
+  server:
+    port: 8081
 grpc:
   client:
       plaintext: true

@@ -1,3 +1,11 @@
 micronaut:
   application:
     name: fretes
+endpoints:
+  all:
+    port: 8085
+    sensitive: true
+  health:
+    enabled: true
+    sensitive: false #sensitive true são para usuários autenticados
+    details-visible: ANONYMOUS
